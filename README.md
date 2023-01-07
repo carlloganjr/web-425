@@ -1,2 +1,6 @@
-# web-425
-Course repository for WEB-425 in the Bellevue University Wed Development Degree
+# WEB 425 RESTful APIs
+Bellevue University WEB 425 repository holding all assignments for the course
+
+## Contributors
+* Professor Krasso
+* Carl Logan
