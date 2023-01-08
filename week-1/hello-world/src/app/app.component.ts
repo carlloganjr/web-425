@@ -6,6 +6,7 @@
     Description: Creating a new Angular application.
 ================================================================
 */
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -14,5 +15,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  // removed the default variable, added new variable and value
   myWorld = 'You are now in Logan\'s world!';
 }
