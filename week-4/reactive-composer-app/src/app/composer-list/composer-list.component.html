@@ -1,0 +1,37 @@
+<!--
+    Title: composer-list.component.html
+    Author: Carl Logan
+    Date: 01/27/2023
+    Description: Handling Form Events with Observables.
+-->
+
+
+<div class="form">
+  <input type="text" id="txtSearch" class="form-control" [formControl]="txtSearchControl">
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Composer ID</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- loop over the composers object to populate the table -->
+      <tr *ngFor = "let composer of composers">
+
+        <!-- Included routing for the ID link -->
+        <th scope="col">
+          <a routerLink="/composer-details/{{composer.composerId}}">
+          {{composer.composerId}}
+        </a>
+      </th>
+        <th scope="col">{{composer.fullName}}</th>
+        <th scope="col">{{composer.genre}}</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
