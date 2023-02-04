@@ -1,0 +1,19 @@
+/*
+    Title: styles.scss
+    Author: Carl Logan
+    Date: 01/31/2023
+    Description: Exercise 5.2 - Navigation and Layout
+*/
+
+@import './theme';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.blue {
+  color: #2196F3;
+}
+
+.green {
+  color: #66BB6A;
+}
