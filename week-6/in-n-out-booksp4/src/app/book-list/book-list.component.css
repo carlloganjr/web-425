@@ -1,0 +1,15 @@
+/*
+    Title: book-list.component.css
+    Author: Carl Logan
+    Date: 02/02/2023
+    Description: Exercise 5.3 - Data Tables
+*/
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
